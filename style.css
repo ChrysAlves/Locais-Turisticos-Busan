@@ -1,41 +1,6 @@
 *{
   padding: 0;
   margin: 0;
-  align-content: center;
-}
-
-.p-title{
-  font-family: Open Sans;
-  font-size:16px ;
-  color: #E1624F;
-
-}
-
-.divider {
-  width: 100%;
-  height: 1px;
-  margin: 36px 0;
-  background-color: #d9d9d9;
-}
-ul li::marker {
-  color: #333333;
-}
-
-span{
-  margin-left:22px ;
-}
-ul{
-  padding-left: 30px;
-}
-
-p{
-  padding-bottom: 40px ;
-  padding-top: 8px;
-}
-
-img{
-  border-radius: 28px;
-  object-fit: cover;
 }
 
 main{
@@ -45,5 +10,88 @@ main{
   height: 2990px;
   margin-left: auto;
   margin-right: auto;
- 
+  margin-top: 40px;
+}
+
+#title{
+  padding-top: 0px;
+  padding-bottom: 40px;
+}
+
+.h2-title{
+  font-family: Open Sans, sans-serif;
+  font-size:16px ;
+  color: #E1624F;
+  font-style: bold;
+}
+#img-busan{
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+  font-family: Open Sans, sans-serif;
+}
+img{
+  border-radius: 28px;
+  object-fit: cover;
+}
+
+h1{
+  font-family: Open Sans, sans-serif;
+  font-size: 36px;
+  font-style: bold;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 36px 0;
+  background-color: #d9d9d9;
+}
+
+ul{
+  padding-left: 24px;
+  color: #0C51A7;
+}
+
+#p-title-content{
+  font-size: 16px;
+  font-style: normal;
+  font-family: Open Sans, sans-serif;
+  padding-top: 8px;
+  padding-bottom: 64px;
+}
+
+.img-cards{
+  border-radius: 28px;
+  object-fit: cover;
+  margin-top: 48px;
+  margin-bottom: 20px;
+}
+
+
+
+.h2-title-destestinos{
+  font-family: Open Sans, sans-serif;
+  font-size: 32px;
+  font-style: bold;
+}
+
+.p-lugares{
+  padding-top: 4px;
+  padding-bottom: 40px ;
+  font-size: 16px;
+  font-style: normal;
+  font-family: Open Sans, sans-serif;
+}
+
+h3{
+  font-size: 28px;
+  font-style: bold;
+  font-family: Open Sans, sans-serif;
+}
+
+.lista-positivos{
+  font-weight: bold;
+  font-size: 16px;
+  font-family: Open Sans, sans-serif;
 }
